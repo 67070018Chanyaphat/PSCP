@@ -1,0 +1,54 @@
+Quiz Week 1.5
+
+x = '%___d %.____f%s' % (123, 3.14159, 'hello')
+>>> x
+'  123 3.142 hello'
+ans = 5,3
+
+Function print() เป็น Built-in function ที่อยู่ใน Module ชื่ออะไร
+ans = builtins
+
+Value	Type
+1.5	______
+9.000	______
+ans = float
+
+>>> ithink = '{_} is {_}'.format('easy', 'PSIT')
+>>> ithink
+'PSIT is easy'
+>>> 
+ans = 1,0
+
+import math
+print(math.sin(45))
+
+อยากทราบว่าโปรแกรมนี้มีข้อผิดพลาดหรือไม่ ถ้าตอบไม่มีข้อผิดพลาด ให้เขียน No Error ถ้ามี Error ให้ตอบว่าเป็นแบบใด Syntax Error หรือ Runtime Error หรือ Semantic Error
+ans = Semantic Error
+
+ถ้ามี Error ให้ตอบว่า Error
+หากคำตอบเป็น str ให้ตอบโดยใช้ single quote
+
+function	ผลลัพธ์
+str(1.0)	______
+float('-1.0')	______
+str('3.14')	______
+int(100, 2)	______
+int('101', 2)	______
+float(3)	______
+float('3.14')	______
+ans = '1.0' ,-1.0 ,'3.14' ,Error ,5 , 3.0 ,3.14
+
+จงหาคำตอบของนิพจน์ 200//7+2**3**2%5
+ans = 32
+
+จงหาคำตอบของนิพจน์ 31**2 + 26 * 221 / 13 - 779
+ans = 624
+
+ใน module math มี function อยู่ function หนึ่ง ที่ใช้ในตรวจสอบว่า floating point 2 ค่า ที่รับเข้ามา มีค่าใกล้เคียงกันหรือไม่
+ans = isclose
+
+หมายเหตุ Python ที่ติดตั้งใน eJudge เป็น version 3.9.x ans =
+และในวิชา PSCP/PSIT กำหนดให้ทำ Pair Programming โดยสลับ Role กันทุกๆกี่นาที ans =
+
+ภาษา Python version ล่าสุด ที่เป็นแบบ Stable Release ที่ออกมาล่าสุด (ณ วันที่เขียนโจทย์ข้อนี้) ในวันที่ 16 กรกฎาคม 2566 เป็น version อะไร
+ans = 
